@@ -7,7 +7,7 @@ const GoalItem = props => {
       activeOpacity={0.8}
       onPress={props.onDelete.bind(this, props.id)}>
       <View style={styles.listItem}>
-        <Text>{props.title}</Text>s
+        <Text>{props.title}</Text>
       </View>
     </TouchableOpacity>
   );
